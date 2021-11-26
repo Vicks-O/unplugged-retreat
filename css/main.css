@@ -154,7 +154,7 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
-* -------------------- Mobile Styles - Homepage -------------------- */
+* -------------------- Mobile Styles Homepage -------------------- */
 
 /* Hero Area */
 
@@ -441,9 +441,14 @@ contact-content p {
   
     footer .copyright {
       width: 100%;
+<<<<<<< HEAD
       
 
 }
+=======
+    }
+
+>>>>>>> a520489b3cc4fcf5197a32cac5cbc42bfa48d5ec
 
 @media only screen and (min-width: 1200px) {
  /* Desktop styles here */
