@@ -86,7 +86,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*------------------Base Header -Footer Styles------------------*/
+
+   /* General Styles */
+    
+   html {
+     font-size: 16px;
+   }
+    
+   body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+   }
+    
+   ul, 
+   ol {
+     list-style-type:none;
+    
+   }
+    
+   a {
+
+    color: #e2e3ed;
+    text-decoration: none;
+    
+   }
+    
+   h2 {
+
+     font-family: 'Poppins' , sans-serif;
+    
+   }
+    
+   h3, 
+   h4 {
+
+    font-family: 'Poppins' , sans-serif;
+
+   }
+    
+   p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+    
+  address {
+   font-style: normal;
+  }
+   
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+  
+   /*------------------Base Header -Footer Styles------------------*/
 header,
 footer {
   display: flex;
@@ -163,7 +216,6 @@ footer .social-icons p {
   justify-content:center;
   flex-flow:row wrap;
 }
-
 
 /* Aside */
 
@@ -438,20 +490,61 @@ contact-content p {
     footer .contact {
       margin-bottom: 0;
     }
-  
+
     footer .copyright {
       width: 100%;
-<<<<<<< HEAD
-      
-
-}
-=======
     }
 
->>>>>>> a520489b3cc4fcf5197a32cac5cbc42bfa48d5ec
+    /* =====================================================================
+     About Page
+     =======================================================================*/
+  
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+    }
 
-@media only screen and (min-width: 1200px) {
- /* Desktop styles here */
+    .mission-content p {
+      width: 45% ;
+    }
+  
+    .contact-section .content-wrapper h2 {
+      width: 80%;
+    }
+  
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    /* ==========================================================================
+     FAQ Page
+     ========================================================================== */
+  
+    .faq .content-wrapper {
+      justify-content: space-between;
+    }
+  
+    .faq-content {
+      flex-basis: 45%;
+    }
+  
+    .faq h2 {
+      width: 100%;
+    }
+  
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* 
 }
 
 /* ==========================================================================
@@ -527,5 +620,4 @@ contact-content p {
   h3 {
     page-break-after: avoid;
   }
-}
 
