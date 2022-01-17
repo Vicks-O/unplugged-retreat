@@ -162,6 +162,13 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
  .header-divider {
    background: #3a3a3a;
@@ -215,6 +222,9 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+footer .copyright {
+  margin: 20px 0;
+}
 * -------------------- Mobile Styles Homepage -------------------- */
 
 /* Hero Area */
@@ -261,7 +271,11 @@ input[type=button] {
 }
 /* Features */
 
+
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -672,3 +686,4 @@ contact-content p {
     page-break-after: avoid;
   }
 
+}
