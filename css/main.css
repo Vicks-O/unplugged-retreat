@@ -339,10 +339,10 @@ input[type=button] {
 contact-content p {
   margin: 0;
 }
-.map figure {
+.map-container {
   width: 100%;
   height: 0; 
-  padding-bottom: 85%q; 
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
@@ -353,7 +353,7 @@ contact-content p {
   position: absolute; 
   top: 0; 
   left: 0; 
-
+}
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
